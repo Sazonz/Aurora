@@ -1,0 +1,44 @@
+#      ___           ___           ___           ___           ___           ___     
+#     /\  \         /\__\         /\  \         /\  \         /\  \         /\  \    
+#    /::\  \       /:/  /        /::\  \       /::\  \       /::\  \       /::\  \   
+#   /:/\:\  \     /:/  /        /:/\:\  \     /:/\:\  \     /:/\:\  \     /:/\:\  \  
+#  /::\~\:\  \   /:/  /  ___   /::\~\:\  \   /:/  \:\  \   /::\~\:\  \   /::\~\:\  \ 
+# /:/\:\ \:\__\ /:/__/  /\__\ /:/\:\ \:\__\ /:/__/ \:\__\ /:/\:\ \:\__\ /:/\:\ \:\__\
+# \/__\:\/:/  / \:\  \ /:/  / \/_|::\/:/  / \:\  \ /:/  / \/_|::\/:/  / \/__\:\/:/  /
+#      \::/  /   \:\  /:/  /     |:|::/  /   \:\  /:/  /     |:|::/  /       \::/  / 
+#      /:/  /     \:\/:/  /      |:|\/__/     \:\/:/  /      |:|\/__/        /:/  /  
+#     /:/  /       \::/  /       |:|  |        \::/  /       |:|  |         /:/  /   
+#     \/__/         \/__/         \|__|         \/__/         \|__|         \/__/    
+# Aurora Refinaria - Projeto criado em 04/03/2019 - dennermelo
+
+# Idioma | Languages
+
+Languages:
+  pt-br: true
+  en-us: false
+
+# Valores por item | Values per item
+
+Valores:
+  diamond_ore: 200
+  gold_ore: 150
+  coal_ore: 100
+  emerald_ore: 170
+  redstone_ore: 60
+  iron_ore: 50
+  lapis_ore: 40
+
+# Configuracoes Extras
+
+prefix: '&d[Aurora Refinaria]'
+
+# Tempos para refinar | Por item
+
+Tempos:
+  diamond_ore: 5
+  gold_ore: 3
+  coal_ore: 2
+  emerald_ore: 6
+  redstone_ore: 4
+  iron_ore: 3
+  lapis_ore: 2

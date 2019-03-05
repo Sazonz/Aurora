@@ -1,0 +1,7 @@
+name: AuroraRefinaria
+main: io.github.dennermelo.arefinaria.Main
+version: 1.0
+author: [dennermelo]
+commands:
+   refinar:
+   refine:
