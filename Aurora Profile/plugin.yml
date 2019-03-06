@@ -1,0 +1,7 @@
+name: AuroraProfile
+main: io.github.dennermelo.aprofile.Main
+version: 1.4.5
+author: [dennermelo]
+depend: [PlaceholderAPI]
+commands:
+   perfil:
