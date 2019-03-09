@@ -1,0 +1,7 @@
+name: AuroraSpawn
+main: io.github.dennermelo.aurora.Main
+version: 1.0
+author: [dennermelo]
+commands:
+   spawn:
+   setspawn:

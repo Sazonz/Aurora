@@ -1,0 +1,35 @@
+# ________  ___  ___  ________  ________  ________  ________          ________  ________  ________  ________  ___  ___     
+#|\   __  \|\  \|\  \|\   __  \|\   __  \|\   __  \|\   __  \        |\   ____\|\   __  \|\   __  \|\   ____\|\  \|\  \    
+#\ \  \|\  \ \  \\\  \ \  \|\  \ \  \|\  \ \  \|\  \ \  \|\  \       \ \  \___|\ \  \|\  \ \  \|\  \ \  \___|\ \  \\\  \   
+# \ \   __  \ \  \\\  \ \   _  _\ \   ____\ \   _  _\ \   __  \       \ \  \    \ \   _  _\ \   __  \ \_____  \ \   __  \  
+#  \ \  \ \  \ \  \\\  \ \  \\  \\ \  \___|\ \  \\  \\ \  \ \  \       \ \  \____\ \  \\  \\ \  \ \  \|____|\  \ \  \ \  \ 
+#   \ \__\ \__\ \_______\ \__\\ _\\ \__\    \ \__\\ _\\ \__\ \__\       \ \_______\ \__\\ _\\ \__\ \__\____\_\  \ \__\ \__\
+#    \|__|\|__|\|_______|\|__|\|__|\|__|     \|__|\|__|\|__|\|__|        \|_______|\|__|\|__|\|__|\|__|\_________\|__|\|__|
+# Plugin de CRASH adaptado do System [By RUSHyoutuber] - Todos os direitos são reservados a ele, somente criei para separar
+# para aqueles que não querem ou já possuem um sistema de Essentials.
+
+# Link para sons: https://dev.bukkit.org/projects/justsound/pages/sound-list
+# Se Crashar-Player-Com-OP for true, o jogador com OP poderá ser crashado.
+# Se Crashar-Player-Com-Permission for true, o jogador com a permissão imune poderá ser crashado.
+Configuracoes:
+  Crashar-Player-Com-OP: false
+  Crashar-Player-Com-Permission: false
+  Ativar-Title: true
+  Ativar-Sound-Crash: true
+  Sound-Crash: EXPLODE
+
+# Permissão Permission-Necessaria-Player-Nao-Crash funciona para aqueles que serão imunes a crash.
+# Permissão Permission-Necessaria-Crash funciona para aqueles que terão acesso ao comando.
+Permissoes:
+  Permission-Necessaria-Player-Nao-Crash: 'aurora.imune'
+  Permission-Necessaria-Crash: 'aurora.crashar'
+
+# Abaixo, algumas mensagens configuráveis do plugin.
+Mensagens:
+  Jogador-Crashado: '&c[Aurora Crash] &7O jogador &c%player% &7foi &c&lCRASHADO &7com sucesso!'
+  Jogador-Nao-Pode-Ser-Crashado: '&c[Aurora Crash] Este jogador não pode ser crashado.'
+  Jogador-Offline: '&c[Aurora Crash] Este jogador não está online.'
+  Jogador-Sem-Permissao: '&c[Aurora Crash] Você não possui permissão para usar este comando.'
+  Comando-Usage: '&c[Aurora Crash] Use: /crashar {jogador}'
+  Title-Crashado: '&cAURORA CRASH'
+  Subtitle-Crashado: '&7O jogador %player% &7foi &c&lCRASHADO&7!'

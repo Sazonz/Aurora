@@ -1,0 +1,6 @@
+name: AuroraCrash
+main: io.github.dennermelo.acrash.Main
+version: 1.0
+author: [dennermelo]
+commands:
+   crashar:

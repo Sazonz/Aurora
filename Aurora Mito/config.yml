@@ -1,0 +1,45 @@
+# █████╗ ██╗   ██╗██████╗  ██████╗ ██████╗  █████╗     ███╗   ███╗██╗████████╗ ██████╗ 
+#██╔══██╗██║   ██║██╔══██╗██╔═══██╗██╔══██╗██╔══██╗    ████╗ ████║██║╚══██╔══╝██╔═══██╗
+#███████║██║   ██║██████╔╝██║   ██║██████╔╝███████║    ██╔████╔██║██║   ██║   ██║   ██║
+#██╔══██║██║   ██║██╔══██╗██║   ██║██╔══██╗██╔══██║    ██║╚██╔╝██║██║   ██║   ██║   ██║
+#██║  ██║╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║  ██║    ██║ ╚═╝ ██║██║   ██║   ╚██████╔╝
+#╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝   ╚═╝    ╚═════╝ 
+# Plugin de Mito do PVP
+# Esta versão está em BETA, estou fazendo um código clean e bem organizado, por enquanto está assim.
+
+# Configurações gerais.
+Configuracoes:
+  Prefix: '&5[MITO]'
+  PrefixLegend: '&5[MITO]'
+  Permission-Comandos: 'amito.admin'
+
+# Caso você queira desativar as mensagens de Join/Quit, você muda para false.
+Ativacoes:
+  Anuncio-Join: true
+  Anuncio-Quit: true
+
+# Abaixo, coloque os comandos para executar após o jogador se tornar o novo Mito do PvP.
+Comandos-Para-Executar:
+  - 'pex group %oldmito% remove Mito'
+  - 'pex group %newmito% add Mito'
+
+# Abaixo, coloque os comandos para executar quando o Mito for retirado de um jogador.
+Comandos-Para-Executar-Mito-Removido:
+  - 'pex group %oldmito% remove Mito'
+
+# Abaixo, configure as mensagens que serão anunciadas de acordo com o evento.
+Mensagens:
+  Novo-Mito: '&f%newmito% &5tornou-se o novo Mito do PVP.'
+  Jogador-Virou-Mito: '&5Você é o novo Mito do PVP!'
+  Sem-Mito: '&5Atualmente, não existe um Mito do PVP.'
+  Join-Mito: '&5%mitoatual% logou no servidor.'
+  Quit-Mito: '&5%mitoatual% deslogou do servidor.'
+  Mostrar-Mito: '&5O Mito atual é: &f%mitoatual%&5.'
+  Mito-Removido: '&5O Mito atual foi removido.'
+  Usage-Error: '&5Use: /setmito <jogador>.'
+  Usage-Error-2: '&5Use: /removemito <jogador>.'
+  Sem-Permissao: '&cVocê não possui permissão para isto.'
+  Jogador-Offline: '&cEste jogador não está online.'
+  Jogador-Nao-Mito: '&cEste jogador não é o Mito atual.'
+  Jogador-Removido-Mito: '&cVocê não é mais o Mito do PvP!'
+  Has-Mito: '&cAtualmente, já existe um Mito do PVP!'

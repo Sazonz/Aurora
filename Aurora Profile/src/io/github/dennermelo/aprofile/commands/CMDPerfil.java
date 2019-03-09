@@ -58,8 +58,6 @@ public class CMDPerfil implements CommandExecutor, Listener {
 
 		if (e.getInventory().getName().equalsIgnoreCase("§eInspecionar Perfil")) {
 
-			for (String key : Main.getInstance().getConfig().getConfigurationSection("InventarioPerfil")
-					.getKeys(false)) {
 				if (e.getCurrentItem().getItemMeta().hasLore()) {
 					e.setCancelled(true);
 				}
@@ -69,7 +67,6 @@ public class CMDPerfil implements CommandExecutor, Listener {
 			}
 
 		}
-	}
 
 	public void abrirGUI(Player p) {
 		Inventory inv = Bukkit.createInventory(p, Main.getInstance().getConfig().getInt("SlotsInventario"),

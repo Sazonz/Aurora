@@ -1,0 +1,8 @@
+name: AuroraMito
+main: io.github.dennermelo.amito.Main
+version: 1.5
+author: [dennermelo]
+commands:
+  mito:
+  setmito:
+  removemito:
