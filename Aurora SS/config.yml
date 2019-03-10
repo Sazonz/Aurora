@@ -10,6 +10,9 @@ Settings:
   Ban-Logout: true
   Ban-Command: 'ban %player% %reason%'
   SS-Permission: 'aurora.ss'
+  Command-List:
+    - '/tell'
+    - '/pm'
 
 # Some messages support a player citation using %player%.
 # Algumas mensagens possuem suporte a  citação de um jogador utilizando %player%.

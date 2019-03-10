@@ -1,5 +1,7 @@
 package io.github.dennermelo.aurorass;
 
+import java.util.List;
+
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
@@ -68,15 +70,21 @@ public class ScreenshareEvents implements Listener {
 	}
 
 	@EventHandler
-	public static void onCommand(PlayerCommandPreprocessEvent e) {
-
-		Player p = e.getPlayer();
-		if (ScreenshareUtil.ss.contains(p.getName()) && e.getMessage().startsWith("/") && !e.getMessage().contains("/tell")) {
-			for (String list : config.getStringList("Messages.You-Are-In-SS")) {
-				p.sendMessage(list.replace("&", "§"));
+	public void onPlayerCommandPreprocessEvent(PlayerCommandPreprocessEvent event) {
+		Player p = event.getPlayer();
+		List<String> commands = config.getStringList("Settings.Command-List");
+		for (String command : commands) {
+			if (event.getMessage().startsWith(command) && ScreenshareUtil.ss.contains(p.getName())) {
+				event.setCancelled(false);
+				return;
 			}
-			e.setCancelled(true);
-
+			if(!event.getMessage().startsWith(command) && ScreenshareUtil.ss.contains(p.getName())) {
+				for (String list : config.getStringList("Messages.You-Are-In-SS")) {
+					p.sendMessage(list.replace("&", "§"));
+				}
+				event.setCancelled(true);
+				return;
+			}
 		}
 	}
 
@@ -94,7 +102,7 @@ public class ScreenshareEvents implements Listener {
 	@EventHandler
 	public void onHitPlayer(EntityDamageEvent event) {
 		if (event.getEntity() instanceof Player && ScreenshareUtil.ss.contains(event.getEntity().getName())) {
-			
+
 			event.setCancelled(true);
 		}
 	}
