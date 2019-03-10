@@ -1,0 +1,31 @@
+# ______     __  __     ______     ______     ______     ______        ______     ______    
+#/\  __ \   /\ \/\ \   /\  == \   /\  __ \   /\  == \   /\  __ \      /\  ___\   /\  ___\   
+#\ \  __ \  \ \ \_\ \  \ \  __<   \ \ \/\ \  \ \  __<   \ \  __ \     \ \___  \  \ \___  \  
+# \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_\ \_\     \/\_____\  \/\_____\ 
+#  \/_/\/_/   \/_____/   \/_/ /_/   \/_____/   \/_/ /_/   \/_/\/_/      \/_____/   \/_____/ 
+# Mineman.club Screen Share Plugin - Developed by dennermelo_
+# Plugin de Screen Share estilo Mineman.club - Desenvolvido por dennermelo_
+
+Settings:
+  Ban-Logout: true
+  Ban-Command: 'ban %player% %reason%'
+  SS-Permission: 'aurora.ss'
+
+# Some messages support a player citation using %player%.
+# Algumas mensagens possuem suporte a  citação de um jogador utilizando %player%.
+Messages:
+  No-Permission: '&5[Aurora SS] &dYou do not have permission to use this.'
+  Command-Usage: '&5[Aurora SS] &dUse /ss <player>.'
+  Player-Added-SS: '&5[Aurora SS] &dNow the player %player% is in Screenshare.'
+  Player-Removed-SS: '&5[Aurora SS] &dThe player %player% has been released.'
+  You-Removed-From-SS: '&5[Aurora SS] &dYou have been released from Screenshare.'
+  You-Can-Not-Add-Yourself: '&5[Aurora SS] &dYou can not add yourself.'
+  Player-Logout: '&5[Aurora SS] &dPlayer %player% logged in Screen Share and was banned.'
+  Player-Is-Offline: '&5[Aurora SS] &dThe mentioned player is not online.'
+  You-Are-In-SS:
+    - ''
+    - '&dYou have been frozen by a staff member.'
+    - '&5Please join our TeamSpeak: ts.server.com'
+    - '&5You have 5 minutes. Logging out will be a ban!'
+    - ''
+  Reason-Ban: 'You have logged out on SS.'

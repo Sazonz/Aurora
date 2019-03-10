@@ -1,0 +1,6 @@
+name: AuroraSS
+main: io.github.dennermelo.aurorass.Main
+version: 1.0
+author: [dennermelo]
+commands:
+   ss:
