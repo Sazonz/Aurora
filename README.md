@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/ZeUof1k.png">
 <br>
 <a href=""><img src="https://img.shields.io/badge/Website-spigot-orange.svg"></a>
-<a href="https://loritta.website/donate"><img src="https://img.shields.io/badge/Donate-aurora%20project-yellowgreen.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/Donate-aurora%20project-yellowgreen.svg"></a>
 <a><img src="https://img.shields.io/badge/Downloads-10%2B-blue.svg"></a>
 </p>
 
