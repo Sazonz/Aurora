@@ -1,0 +1,6 @@
+name: Template
+main: io.github.dennermelo.template.Main
+version: 1.0
+author: [dennermelo]
+commands:
+   template:
