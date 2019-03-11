@@ -1,0 +1,6 @@
+name: AuroraVaultBalanceFormatter
+main: io.github.dennermelo.vaultbformatter.Main
+version: 1.0
+author: [dennermelo]
+commands:
+   bal:
