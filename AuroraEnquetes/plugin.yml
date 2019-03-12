@@ -1,0 +1,6 @@
+name: AuroraEnquetes
+main: io.github.dennermelo.auroraenquetes.Main
+version: 1.0
+author: [dennermelo]
+commands:
+   enquete:
