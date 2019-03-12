@@ -3,6 +3,7 @@ package io.github.dennermelo.auroraenquetes;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import io.github.dennermelo.auroraenquetes.comandos.EnqueteCommand;
 import io.github.dennermelo.auroraenquetes.managers.ConfigManager;
 
 public class Main extends JavaPlugin {
@@ -27,6 +28,7 @@ public class Main extends JavaPlugin {
 
 	private void registerCMD() {
 		Bukkit.getConsoleSender().sendMessage("§c[Aurora Enquetes] Registrando comandos...");
+		getCommand("enquetes").setExecutor(new EnqueteCommand());
 
 	}
 

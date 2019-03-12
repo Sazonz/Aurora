@@ -5,6 +5,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import io.github.dennermelo.auroraenquetes.utils.Mode;
+
 public class EnqueteCommand implements CommandExecutor {
 	
 	
@@ -16,6 +18,9 @@ public class EnqueteCommand implements CommandExecutor {
 		}
 		Player p = (Player)sender;
 		if(cmd.getName().equalsIgnoreCase("enquete")) {
+			p.sendMessage(Mode.getString(3, Mode.NUMERIC));
+			return true;
+			
 			
 		}
 		return false;

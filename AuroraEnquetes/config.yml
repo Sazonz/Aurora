@@ -1,0 +1,14 @@
+Configuracoes:
+  Permissao-Necessaria-Admin: 'aurora.criarenquetes'
+
+Mensagens:
+  Sem-Permissao: '&c[Aurora Enquetes] Sem permissão para isto.'
+  ID-Nao-Encontrado: '&c[Aurora Enquetes] Esta enquete de ID %id% não foi encontrada.'
+  Ja-Contem-Alternativa: '&c[Aurora Enquete] Já foi setada uma alternativa para esta enquete.'
+  Usage-Enquete: '&c[Aurora Enquete] Utilize, /enquete criar <enquete>.'
+  Usage-Enquete-Usuario: '&e[Aurora Enquetes] Para responder uma enquete, use: /enquete <ID> <Alternativa>.'
+  Usage-Comando-SetAlternativa: '&c[Aurora Enquete] Por favor, sete a alternativa de número 1 usando: /enquete setalternativa <alternativa>.'
+  Usage-Comando-SetAlternativa2: '&c[Aurora Enquetes] Por favor, sete a alternativa de número 2 usando: /enquete setalternativa2 <alternativa>.'
+  Enquete-Criada: '&a[Aurora Enquetes] Enquete criada com sucesso.'
+  Enquete-Removida: '&c[Aurora Enquetes] Enquete removida com sucesso.'
+  Enquente-Inexistente: '&c[Aurora Enquentes] Esta enquete não existe.'
