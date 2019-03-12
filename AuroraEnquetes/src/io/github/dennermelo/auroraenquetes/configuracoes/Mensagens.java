@@ -1,6 +1,8 @@
-package io.github.dennermelo.auroraenquetes;
+package io.github.dennermelo.auroraenquetes.configuracoes;
 
 import org.bukkit.configuration.file.FileConfiguration;
+
+import io.github.dennermelo.auroraenquetes.Main;
 
 public class Mensagens {
 	

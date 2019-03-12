@@ -1,4 +1,4 @@
-package io.github.dennermelo.auroraenquetes;
+package io.github.dennermelo.auroraenquetes.comandos;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
