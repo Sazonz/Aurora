@@ -1,8 +1,8 @@
-package io.github.dennermelo.auroraenquetes.configuracoes;
+package io.github.dennermelo.auroratickets.configuracoes;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
-import io.github.dennermelo.auroraenquetes.Main;
+import io.github.dennermelo.auroratickets.Main;
 
 public class Configuracoes {
 	

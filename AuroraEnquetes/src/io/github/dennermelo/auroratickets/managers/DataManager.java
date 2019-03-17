@@ -1,11 +1,11 @@
-package io.github.dennermelo.auroraenquetes.managers;
+package io.github.dennermelo.auroratickets.managers;
 
 import java.io.File;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import io.github.dennermelo.auroraenquetes.Main;
+import io.github.dennermelo.auroratickets.Main;
 
 
 

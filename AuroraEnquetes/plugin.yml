@@ -1,6 +1,6 @@
-name: AuroraEnquetes
-main: io.github.dennermelo.auroraenquetes.Main
+name: AuroraTickets
+main: io.github.dennermelo.auroratickets.Main
 version: 1.0
 author: [dennermelo]
 commands:
-   enquete:
+   ticket:
